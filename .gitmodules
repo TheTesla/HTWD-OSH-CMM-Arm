@@ -1,0 +1,3 @@
+[submodule "submodules/SpiroBrixx"]
+	path = submodules/SpiroBrixx
+	url = https://github.com/TheTesla/SpiroBrixx.git
