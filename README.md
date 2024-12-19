@@ -1,4 +1,4 @@
-# Open Source Coordinate Measuremnt Arm
+# Open Source Coordinate Measurement Arm
 
 This opensource coordinate measurement arm registers the x-, y- and z-coordinate of the pointer by reading the 5 angles of the joints. 
 
