@@ -1,24 +1,24 @@
 [submodule "submodules/SpiroBrixx"]
-	path = submodules/SpiroBrixx
+	path = mod/mech/SpiroBrixx
 	url = https://github.com/TheTesla/SpiroBrixx.git
 [submodule "submodules/Fuzzyometry"]
-	path = submodules/Fuzzyometry
+	path = mod/mech/Fuzzyometry
 	url = https://github.com/TheTesla/Fuzzyometry
 [submodule "submodules/OSH-CMM-LogicBoard"]
-	path = submodules/OSH-CMM-LogicBoard
+	path = mod/elec/OSH-CMM-LogicBoard
 	url = https://github.com/TheTesla/OSH-CMM-LogicBoard
 [submodule "submodules/rotary-encoder-protection"]
-	path = submodules/rotary-encoder-protection
+	path = mod/elec/rotary-encoder-protection
 	url = https://github.com/TheTesla/rotary-encoder-protection
 [submodule "submodules/read-rotatry-encoder"]
-	path = submodules/read-rotatry-encoder
+	path = mod/firmware/read-rotatry-encoder
 	url = https://github.com/TheTesla/read-rotatry-encoder
 [submodule "submodules/cmm-host-software"]
-	path = submodules/cmm-host-software
+	path = mod/software/cmm-host-software
 	url = https://github.com/TheTesla/cmm-host-software
 [submodule "submodules/xyzcad"]
-	path = submodules/xyzcad
+	path = mod/mech/xyzcad
 	url = https://github.com/TheTesla/xyzcad
 [submodule "submodules/CCM-Arm"]
-	path = submodules/CCM-Arm
+	path = mod/mult/CCM-Arm
 	url = https://github.com/TheTesla/CCM-Arm
