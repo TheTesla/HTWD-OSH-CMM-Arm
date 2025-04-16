@@ -1,0 +1,35 @@
+okhv = "OKH-LOSHv1.0" # NOT to be changed
+name = "HTWD-OSH-CMM-Arm"
+repo = "https://github.com/TheTesla/HTWD-OSH-CMM-Arm"
+version = "0.1.0"
+# This needs to be a valid SPDX [License Expression](https://spdx.github.io/spdx-spec/v2-draft/SPDX-license-expressions/). Usually that is a single SPDX license ID, foudn in the "Identifier" column in this table: https://spdx.org/licenses/
+license = "CERN-OHL-S-2.0"
+licensor = "Stefan Helmert <stefan.helmert@htw-dresden.de>"
+function = "Root repository of the open source coordinate measurement arm: It registers the x, y and z coordinate of the position pointed at. It is used for manual digitization of objects by taking point coordinates."
+documentation-language = "en-GB"
+organization = "Hochschule fuer Technik und Wirtschaft Dresden"
+#release = "https://gitlab.com/YOU/your-awesome-project/-/releases/1.0.0"
+readme = "README.md"
+#contribution-guide = "CONTRIBUTING.md"
+# logo
+#image = "imgs/xxx.jpg"
+# product-photo
+#image = "gen/elec/RotaryEncoderProtection.png"
+technology-readiness-level = "OTRL-4"
+documentation-readiness-level = "ODRL-3"
+#attestation = "https://certification.oshwa.org/cl000001.html"
+#publication = "https://doi.org/10.1371/journal.pone.0193087"
+#standard-compliance = "DIN EN 1335"
+# A Cooperative Patent Classification-ID, describing this projects hardware; You may want to search for it here: <https://worldwide.espacenet.com/classification>
+#cpc-patent-class = "D03D 35/00"
+#tsdc = "MEC"
+#bom = "bom.csv"
+#manufacturing-instructions = "Documentation/Assembly_Guide/AssemblyGuide.md"
+#user-manual = "Documentation/User_Guide/UserGuide.md"
+mass= 2000.0
+
+[outer-dimensions]
+width = "250"
+depth = "500"
+height = "500"
+
