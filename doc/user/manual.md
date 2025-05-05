@@ -11,7 +11,19 @@ The host software is available on _GitHub_. After downloading the repository htt
 
 An interactive window will appear. This is the user interface, which visualizes the measured points.
 
-Make sure, the pointer of the measurement arm is in the reference position. This is needed to get the best precision. While the arm is in this position, connect the measurement arm to the host computer. There should be a line drawing of the measurement arm visible in the interactive window, which moves, if the arm is moved.
+![GUI without device](host_software_0.png)
+
+The host software can be demonstrated without the measurement arm by using the mouse.
+
+Make sure, the pointer of the measurement arm is in the reference position. This is needed to get the best precision. While the arm is in this position, connect the measurement arm to the host computer. Now, an extra serial port should be listed, e. g. `COM6`:
+
+![GUI with device connected](host_software_1.png)
+
+The host software checks all available serial ports, until it finds the measurement arm. When the arm is found, there should be a line drawing of the measurement arm visible in the interactive window, which moves, if the arm is moved:
+
+![GUI with connection established](host_software_2.png)
+
+Now, mouse input is disabled and only the arm data is processed.
 
 ## Measure coordinates
 
