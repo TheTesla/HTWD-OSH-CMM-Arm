@@ -13,3 +13,9 @@ After the screws are tightened, the mounting brackets `notched_screwbarI_4` for 
 
 One joint is ready now. Repeat this procedure for the other four joint.
 
+## Segments
+
+Having more than three joints allows to turn the pointer to reach the object from different directions. There are multiple different configurations possible. The following configuration is recommended to have a good combimation of ergonomy and felxibility:
+
+The shaft of the first encoder points upwards. The whole movable part of the arm stands on it. The second encoder is mounted with an angle of 90° on the shaft. The hight is not critical. It changes only the absoulte z-position of the resulting coordinates. On that shaft, an arm segment in mounted in 90° angle. The third encoder is mounted in the same direction with 195 mm distance on that segment. The distance along the rotation axes is not critical. The foruth encoder is rotatet 90° to the third one. The position of it is critical. It rotation axis of it should intersect the rotation axis of the first (vertical) encoder. If it is out of center, the distance between these two rotation axes must be measured and used as calibration value. 
+
