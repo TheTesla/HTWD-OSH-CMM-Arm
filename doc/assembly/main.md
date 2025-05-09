@@ -34,5 +34,5 @@ On that shaft, an arm segment in mounted in 90° angle. The third encoder is mou
 
 The distance between the third and the fifth encoder should be 230 mm. The length of the pointer, starting from the last (fifth) encoder rotation axis should be 210 mm. The 3d model of the pointer stick is `screwbarI_4_stick`. It can be put in the `screwbarI_4_hole` to have a reference position, where the incremental rotary encoders are calibrated.
 
-It is recommended to ensure, that all `r` values are 0. The more non-trivial values appear, the higher is the probability, a mistake happens, like noting the wrong sign or confusing the parameters. 
+It is recommended to ensure, that all `r` values are 0. The more non-trivial values appear, the higher is the probability, a mistake happens, like noting the wrong sign or confusing the parameters. The reference angles `Th` should be 90°, but the value of the fourth one should be 180°. Mistakes are easier to spot with these values.
 
