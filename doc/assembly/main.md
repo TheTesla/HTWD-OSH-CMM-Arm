@@ -11,7 +11,11 @@ The optical rotary encoders are mounted into the `encodermountI_4` brick by thre
 
 ![3d model of encodermountI\_4, backview](encodermountI_4_back.png)
 
+![photo of encodermountI\_4, backview](encodermountI_4_back_photo.jpg)
+
 ![3d model of encodermountI\_4, frontview](encodermountI_4_front.png)
+
+![photo of encodermountI\_4, frontview](encodermountI_4_front_photo.jpg)
 
 After the screws are tightened, the mounting brackets `notched_screwbarI_4` for the shaft can be fitted.
 
