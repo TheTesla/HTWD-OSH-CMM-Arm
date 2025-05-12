@@ -13,14 +13,15 @@ The optical rotary encoders are mounted into the `encodermountI_4` brick by thre
 
 ![3d model of encodermountI\_4, frontview](encodermountI_4_front.png)
 
-After the screws are tightened, the mounting brackets `notched_screwbarI_4` for the shaft can be fitted. For each encoder two identical parts are used. The notches of the two bricks will embrace the shaft of the encoder. The blocks are mounted by the screw `screw_knurl_4`.
+After the screws are tightened, the mounting brackets `notched_screwbarI_4` for the shaft can be fitted.
+
+![3d model of notched\_screwbarI\_4](notched_screwbarI_4.png)
+
+For each encoder two identical parts are used. The notches of the two bricks will embrace the shaft of the encoder. The blocks are mounted by the screw `screw_knurl_4`.
 
 ![3d model of screw\_knurl\_4](screw_knurl_4.png)
 
 It is easier to align the two parts without the encoder and combine them with one screw at first. There must not be any gap. The two bricks can be rotated around the screw like a pair of scissors. The assembly can now be put on the encoder shaft and a second screw must be added. At the end, both screws must be fully tigthened to make sure, the mounting brackets don't move on the shaft. Make sure, there are 1 - 2 mm spacing between the brackets and the three metal screws to avoid scrubbing or blocking.
-
-![3d model of notched\_screwbarI\_4](notched_screwbarI_4.png)
-
 
 One joint is ready now. Repeat this procedure for the other four joint.
 
