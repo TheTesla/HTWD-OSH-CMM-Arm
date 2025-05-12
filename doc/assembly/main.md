@@ -9,7 +9,15 @@ To address the flexibility requirement, there are only a few amount of different
 
 The optical rotary encoders are mounted into the `encodermountI_4` brick by three screws. The screws are normally included with the deilvery of the rotary encoder. There are six holes in the encoder. The three outer holes must be used. There is only one valid position, because the cable must fit into the large notch.
 
+![3d model of encodermountI\_4, backview](encodermountI_4_back.png)
+
+![3d model of encodermountI\_4, frontview](encodermountI_4_front.png)
+
 After the screws are tightened, the mounting brackets `notched_screwbarI_4` for the shaft can be fitted. For each encoder two identical parts are used. The notches of the two bricks will embrace the shaft of the encoder. It is easier to align the two parts without the encoder and combine them with one screw at first. There must not be any gap. The two bricks can be rotatetaround the screw like a pair of scissors. The assembly can now be put on the encoder shaft and a second screw must be added. At the end, both screws must be fully tigthened to make sure, the mounting brackets don't move on the shaft. Make sure, there are 1 - 2 mm spacing between the brackets and the three metal screws to avoid scrubbing or blocking.
+
+
+![3d model of notched\_screwbarI\_4](notched_screwbarI_4.png)
+
 
 One joint is ready now. Repeat this procedure for the other four joint.
 
@@ -33,6 +41,11 @@ The shaft of the first encoder points upwards. The whole movable part of the arm
 On that shaft, an arm segment in mounted in 90° angle. The third encoder is mounted in the same direction (`A1` = 0°) with 195 mm distance on that segment, parameter `r1`. The distance along the rotation axes is not critical. The fourth encoder is rotated 90° to the third one. The position of it is critical. Its rotation axis of it should intersect the rotation axis of the first (vertical) and the third encoder. If it is out of center, the distance between these two rotation axes must be measured and used as calibration value. 
 
 The distance between the third and the fifth encoder should be 230 mm. The length of the pointer, starting from the last (fifth) encoder rotation axis should be 210 mm. The 3d model of the pointer stick is `screwbarI_4_stick`. It can be put in the `screwbarI_4_hole` to have a reference position, where the incremental rotary encoders are calibrated.
+
+![3d model of screwbarI\_4\_stick](screwbarI_4_stick.png)
+
+![3d model of screwbarI\_4\_hole](screwbarI_4_hole.png)
+
 
 It is recommended to ensure, that all `r` values are 0. The more non-trivial values appear, the higher is the probability, a mistake happens, like noting the wrong sign or confusing the parameters. The reference angles `Th` should be 90°, but the value of the fourth one should be 180°. Mistakes are easier to spot with these values.
 
