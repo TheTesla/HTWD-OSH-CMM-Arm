@@ -13,8 +13,11 @@ The optical rotary encoders are mounted into the `encodermountI_4` brick by thre
 
 ![3d model of encodermountI\_4, frontview](encodermountI_4_front.png)
 
-After the screws are tightened, the mounting brackets `notched_screwbarI_4` for the shaft can be fitted. For each encoder two identical parts are used. The notches of the two bricks will embrace the shaft of the encoder. It is easier to align the two parts without the encoder and combine them with one screw at first. There must not be any gap. The two bricks can be rotatetaround the screw like a pair of scissors. The assembly can now be put on the encoder shaft and a second screw must be added. At the end, both screws must be fully tigthened to make sure, the mounting brackets don't move on the shaft. Make sure, there are 1 - 2 mm spacing between the brackets and the three metal screws to avoid scrubbing or blocking.
+After the screws are tightened, the mounting brackets `notched_screwbarI_4` for the shaft can be fitted. For each encoder two identical parts are used. The notches of the two bricks will embrace the shaft of the encoder. The blocks are mounted by the screw `screw_knurl_4`.
 
+![3d model of screw\_knurl\_4](screw_knurl_4.png)
+
+It is easier to align the two parts without the encoder and combine them with one screw at first. There must not be any gap. The two bricks can be rotated around the screw like a pair of scissors. The assembly can now be put on the encoder shaft and a second screw must be added. At the end, both screws must be fully tigthened to make sure, the mounting brackets don't move on the shaft. Make sure, there are 1 - 2 mm spacing between the brackets and the three metal screws to avoid scrubbing or blocking.
 
 ![3d model of notched\_screwbarI\_4](notched_screwbarI_4.png)
 
@@ -23,9 +26,13 @@ One joint is ready now. Repeat this procedure for the other four joint.
 
 ## Segments
 
-Having more than three joints, allows to turn the pointer to reach the object from different directions. There are multiple different configurations possible.
+Having more than three joints, allows to turn the pointer to reach the object from different directions. The arm segments between the joints are built out of `screwbarI_4` and `screwbarY_4`.
 
-To describe this configuration, the so called [_Denavit–Hartenberg parameters_](https://en.wikipedia.org/wiki/Denavit%E2%80%93Hartenberg_parameters) are used. Each rotary encoder represents a rotation axis. Each joint is represented by four parameters:
+![3d model of screwbarI\_4](screwbarI_4.png)
+
+![3d model of screwbarY\_4](screwbarY_4.png)
+
+There are multiple different configurations possible. To describe this configuration, the so called [_Denavit–Hartenberg parameters_](https://en.wikipedia.org/wiki/Denavit%E2%80%93Hartenberg_parameters) are used. Each rotary encoder represents a rotation axis. Each joint is represented by four parameters:
 
 * The position along the first axis `d`
 * The angle, measured by the first rotary encoder `Th`
@@ -48,4 +55,7 @@ The distance between the third and the fifth encoder should be 230 mm. The lengt
 
 
 It is recommended to ensure, that all `r` values are 0. The more non-trivial values appear, the higher is the probability, a mistake happens, like noting the wrong sign or confusing the parameters. The reference angles `Th` should be 90°, but the value of the fourth one should be 180°. Mistakes are easier to spot with these values.
+
+
+
 
