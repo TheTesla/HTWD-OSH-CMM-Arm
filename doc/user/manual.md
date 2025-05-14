@@ -5,11 +5,11 @@ The measurement arm can only be used as peripheral USB device in compination wit
 
 ## Setup
 
-The _Java_ software, which collects the data von the host computer needs _Processing_. It is available as a free download: https://processing.org/download and must be installed.
+The host software bundled with all _java_ and other third party components can be downloaded as a single `.zip` file:
 
-The host software is available on _GitHub_. After downloading the repository https://github.com/TheTesla/CCM-Arm, navigate into the subdirectory `5 DOF/CMM_DXF_V8/` and open `CMM_DXF_V8.pde` with _Processing_. Start the program with the play button.
+https://github.com/TheTesla/CCM-Arm/releases/download/v0.9/CMM-5-DOF-Host-Software-windows-amd64.zip
 
-An interactive window will appear. This is the user interface, which visualizes the measured points.
+After extracting the archive, the `CMM_DXF_V8.exe` must be started to run the software. This is a portable app, no installation is required. After starting the software, an interactive window will appear. This is the user interface, which visualizes the measured points.
 
 ![GUI without device](host_software_0.png)
 
