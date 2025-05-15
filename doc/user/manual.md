@@ -1,7 +1,19 @@
 
 # User Manual OSH-CMM
 
-The measurement arm can only be used as peripheral USB device in compination with a host computer. It is powered by the computer, which also stores the measured values. 
+The measurement arm can only be used as peripheral USB device in combination with a host computer. It is powered by the computer, which also stores the measured values. 
+
+## Requirements
+
+Minimum system requirements:
+* PC or Mac
+* OS: _Microsoft Windows 11_, _Ubuntu Linux 24.04 LTS_ or _Mac OS X 15_
+* 2 CPU cores with 1 GHz
+* 1 GB free HDD space
+* 8 GB RAM
+* 1 USB 2.0 host port
+* single 1280 x 720 screen
+* keyboard
 
 ## Setup
 
