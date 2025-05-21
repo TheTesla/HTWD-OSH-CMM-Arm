@@ -71,3 +71,10 @@ The repository `CCM-Arm` is forked from `BL-Shopwork`.
 ## Author
 
 Stefan Helmert <stefan.helmert@htw-dresden.de>
+
+## Appendix
+
+### Pictures
+
+![Photo: OSH CMM arm, perspective view](res/assets/media/img/main.jpg)
+
